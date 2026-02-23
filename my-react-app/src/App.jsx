@@ -7,20 +7,44 @@ function App() {
   return (
     <>
     
-      <h1>Vite + React</h1>
+      <h1>React Core Concepts</h1>
       <Person></Person>
-      <Department></Department>
-      
-    
+      <Student></Student>
+      <Student></Student>
+      <Developer name = "MoniRul" tech ="Py"></Developer>
+      <Developer name = "Akib" tech ="JS"></Developer>
+  
      
     </>
   )
 }
 
+function Developer(props){
+  
+  return(
+    <div style={{
+      border: "2px solid green",
+      borderRadius: "20px"
+    }}>
+      <h3>Developer: {props.name}</h3>
+      <h3>Technology: {props.tech}</h3>
+    </div>
+  )
+}
+
+
 function Person(){
   const dept = "CSE";
+
+  const personStyle = {
+    color: "green",
+    textAlign: "middle",
+    fontSize: "30px"
+  }
+
+
   return(
-    <h1>Green University of Bangladesh Department of {dept}</h1>
+    <h1 style = {personStyle}>Green University of Bangladesh</h1>
   )
 }
 
@@ -35,6 +59,16 @@ function Department(){
         <li>BBA</li>
       </ul>
     </h2>
+  )
+}
+
+
+function Student(){
+  return(
+   <div className='student'>
+    <p>Name: </p>
+    <p>ID: </p>
+   </div>
   )
 }
 
