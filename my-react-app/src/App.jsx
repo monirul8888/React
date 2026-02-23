@@ -9,8 +9,10 @@ function App() {
     
       <h1>React Core Concepts</h1>
       <Person></Person>
-      <Student></Student>
-      <Student></Student>
+      <Student name = "MoniRul" id="221002154" dept = "CSE"></Student>
+      <Student name = "Akib" id="221002155" dept = "EEE"></Student>
+      <Student name = "Takib" id="221002156" dept = "BBA"></Student>
+    
       <Developer name = "MoniRul" tech ="Py"></Developer>
       <Developer name = "Akib" tech ="JS"></Developer>
   
@@ -63,11 +65,12 @@ function Department(){
 }
 
 
-function Student(){
+function Student({name, id, dept}){
   return(
    <div className='student'>
-    <p>Name: </p>
-    <p>ID: </p>
+    <h3>Student Name: {name}</h3>
+    <h3>Student ID: {id} </h3>
+    <h3>Department: {dept} </h3>
    </div>
   )
 }
