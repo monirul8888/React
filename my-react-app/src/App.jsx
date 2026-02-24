@@ -1,21 +1,25 @@
-
 import './App.css'
-
+import ToDo  from './ToDo'
 function App() {
-
 
   return (
     <>
     
       <h1>React Core Concepts</h1>
-      <Person></Person>
+      {/* <Person></Person>
       <Student name = "MoniRul" id="221002154" dept = "CSE"></Student>
       <Student name = "Akib" id="221002155" dept = "EEE"></Student>
       <Student name = "Takib" id="221002156" dept = "BBA"></Student>
     
       <Developer name = "MoniRul" tech ="Py"></Developer>
-      <Developer name = "Akib" tech ="JS"></Developer>
-  
+      <Developer name = "Akib" tech ="JS"></Developer> */
+      
+      
+      }
+      <ToDo task ="Python" done ={true}></ToDo>
+      <ToDo task ="JavaScript" done ={false}></ToDo>
+      <ToDo done = {false}></ToDo>
+      
      
     </>
   )
