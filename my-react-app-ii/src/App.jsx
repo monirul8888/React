@@ -1,4 +1,5 @@
 import './App.css'
+import  Batsman from "./Batman.jsx";
 
 function App() 
 {
@@ -20,16 +21,11 @@ const  handleClick5=(num)=>{
     <>
       
       <h1>Vite + React</h1>
-      {/* <button onClick = "handleClick()">Click Me</button> */}
-      <button onClick={handleClick}>Click Me</button>
 
-      <button onClick={function(){
-        alert("Clciked 2");
-      }}>Click Me 2</button>
+      <Batsman name="Monirul"></Batsman>
 
-      <button onClick={handleClick3}>Click 3</button>
 
-      <button onClick={()=>handleClick5(5)}>Click 5</button>
+     
     
      
     </>
