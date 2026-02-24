@@ -11,6 +11,11 @@ function App()
   alert("I am Clicked 3");
  }
 
+const  handleClick5=(num)=>{
+  const newNumber = num+2;
+  alert(newNumber);
+ }
+
   return (
     <>
       
@@ -23,6 +28,8 @@ function App()
       }}>Click Me 2</button>
 
       <button onClick={handleClick3}>Click 3</button>
+
+      <button onClick={()=>handleClick5(5)}>Click 5</button>
     
      
     </>
