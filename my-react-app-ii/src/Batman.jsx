@@ -5,6 +5,7 @@ export default function Batsman({name}){
     let [runs, setRuns] = useState(0);
 
     const [six, setSix] = useState(0);
+    const [four, setFour] = useState(0);
 
     const handleSingle=()=> {
         const updatedRuns = runs+1;
@@ -14,7 +15,17 @@ export default function Batsman({name}){
         const updatedRuns =runs+6;
         const updatedSix = six+1;
         setSix(updatedSix);
+        
         setRuns(updatedRuns);
+    }
+
+    const handleFour=()=>{
+        const updatedRuns =runs+6;
+        const updatedFour = six+1;
+        
+        setFour(updatedFour);
+        setRuns(updatedRuns);
+        
     }
 
     return(
