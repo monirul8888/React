@@ -11,11 +11,10 @@ export default function Batsman({name}){
         const updatedRuns = runs+1;
         setRuns(updatedRuns);
     }
-    const handleSix=()=>{
+    const handleSix =()=>{
         const updatedRuns =runs+6;
-        const updatedSi = six+1;
-        setSix(updatedSi);
-        
+        const updatedSix = six+1;
+        setSix(updatedSix);
         setRuns(updatedRuns);
     }
 
