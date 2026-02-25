@@ -11,22 +11,7 @@ export default function Batsman({name}){
         const updatedRuns = runs+1;
         setRuns(updatedRuns);
     }
-    const handleSix=()=>{
-        const updatedRuns =runs+6;
-        const updatedSix = six+1;
-        setSix(updatedSix);
-        
-        setRuns(updatedRuns);
-    }
-
-    const handleFour=()=>{
-        const updatedRuns =runs+6;
-        const updatedFour = six+1;
-        
-        setFour(updatedFour);
-        setRuns(updatedRuns);
-        
-    }
+  
 
     return(
          <div>
