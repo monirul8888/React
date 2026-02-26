@@ -1,4 +1,4 @@
-
+import User from './user';
 import './App.css'
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <>
       
       <h1>Vite + React</h1>
+      <User></User>
      
     
     </>
