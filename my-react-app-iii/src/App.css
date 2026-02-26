@@ -43,3 +43,59 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+
+
+
+/* Page background */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f9;
+}
+
+/* Posts container */
+.card {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Title section */
+.card h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Individual Post Card */
+.card .card {
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.card .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Post title */
+.card h2 {
+  margin: 0 0 10px;
+  color: #1e3a8a;
+}
+
+/* Post body */
+.card p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
+
