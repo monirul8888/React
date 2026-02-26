@@ -1,6 +1,6 @@
 export default function User(){
     return(
-        <div>
+        <div className="card">
             <h3>User</h3>
         </div>
     )
