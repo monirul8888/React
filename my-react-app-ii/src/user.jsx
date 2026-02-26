@@ -1,9 +1,9 @@
 export default function Users(){
 
-    return{
+    return(
         <div>
         <h3>Users</h3>
         </div>
-    }
+    )
 
 }
