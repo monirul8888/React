@@ -33,10 +33,14 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
+
 
 .read-the-docs {
   color: #888;
+}
+
+.card{
+  margin: 2px ;
+  padding: 10px;
+  border: 2px solid goldenrod;
 }
