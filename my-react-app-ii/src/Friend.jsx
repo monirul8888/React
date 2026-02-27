@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Friend = ({friend}) => {
-    const {name, phone, website, company, address} = friend;
+    const {name, phone, website, company} = friend;
     return (
         <div className='card'>
 
