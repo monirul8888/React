@@ -9,7 +9,11 @@ const Friends = ({friendsPromise}) => {
 
             <h3>Friends</h3>
             {
-                friends.map(friend => <Friend friend = {friend}></Friend> )
+                friends.map(friend =>  <Friend 
+                    key = {friend.id}
+                    friend = {friend}>
+
+                    </Friend> )
             }
             
         </div>
